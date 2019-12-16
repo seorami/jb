@@ -1,0 +1,18 @@
+/* slider.css */
+
+.slider {
+  position: relative;
+  /* outline: 2px solid red; */
+  padding-bottom: 65%;
+}
+.slider > img {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* 전환효과 */
+  transition-duration: 1s;
+}
+.slider > img.show {
+  opacity: 1;
+}
